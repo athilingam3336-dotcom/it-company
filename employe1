@@ -31,5 +31,16 @@
         background-color: #45a049;
     }
 </style>
+<p id="status">Status: Idle</p>
+
+<script>
+function startWork() {
+    document.getElementById("status").innerText = "Status: Working...";
+}
+
+function stopWork() {
+    document.getElementById("status").innerText = "Status: Stopped";
+}
+</script>
 </body>
 </html>
