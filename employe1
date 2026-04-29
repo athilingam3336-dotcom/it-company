@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Worker Panel</title>
+</head>
+<body>
+
+<h1>👷 Worker Panel</h1>
+
+<button>Start Work</button>
+<button>Stop Work</button>
+
+</body>
+</html>
