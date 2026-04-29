@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Worker Panel</title>
+</head>
+<body>
+
+<h1>👷 Worker Panel</h1>
+
+<button>Start Work</button>
+<button>Stop Work</button>
+<style>
+    body {
+        text-align: center;
+        font-family: Arial;
+        background-color: #f2f2f2;
+    }
+
+    button {
+        padding: 15px 30px;
+        margin: 10px;
+        font-size: 18px;
+        border: none;
+        border-radius: 10px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+<p id="status">Status: Idle</p>
+
+<script>
+function startWork() {
+    document.getElementById("status").innerText = "Status: Working...";
+}
+
+function stopWork() {
+    document.getElementById("status").innerText = "Status: Stopped";
+}
+</script>
+<button onclick="startWork()">Start Work</button>
+<button onclick="stopWork()">Stop Work</button>
+</body>
+</html>
