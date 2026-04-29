@@ -42,5 +42,7 @@ function stopWork() {
     document.getElementById("status").innerText = "Status: Stopped";
 }
 </script>
+<button onclick="startWork()">Start Work</button>
+<button onclick="stopWork()">Stop Work</button>
 </body>
 </html>
